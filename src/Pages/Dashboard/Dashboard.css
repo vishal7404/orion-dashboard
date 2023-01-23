@@ -1,0 +1,151 @@
+.topColor {
+    width: 100%;
+    height: 120px;
+    background: var(--topNav);
+    padding-left: 10px;
+}
+
+.topColor h4 {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.deposit img {
+    width: 80%;
+
+}
+
+.deposit img {
+    width: 100%;
+}
+
+.mainDiv {
+    /* background: #fff; */
+    padding: 30px;
+
+}
+
+.btnPrimary {
+    background: var(--bgPrimary);
+    color: var(--textColor);
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.btnPrimary:hover {
+    opacity: 0.7;
+}
+
+.detailCard {
+    display: flex;
+    overflow-x: auto;
+
+}
+
+.detailCard i {
+    margin-right: 5px;
+    color: var(--textColor);
+}
+
+.detailCard p {
+    margin-right: 10px;
+    color: var(--textColor);
+    white-space: nowrap;
+}
+
+.detailCard span {
+    color: var(--textColor);
+    white-space: nowrap;
+}
+
+#detailCardContainer {
+    background: var(--bgColor);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.bankCard {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: var(--bgColor);
+}
+
+.bankCardContainer {
+    /* background: var(--bgColor); */
+    border-radius: 10px;
+}
+
+.rewardMainDiv {
+    background: var(--topNav);
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.rewardInnerDiv p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.rewardInnerDiv i {
+    font-size: 55px;
+    margin-right: 10px;
+    color: orange;
+}
+
+.rewardInnerDiv i:hover {
+    transform: scale(1.1);
+}
+
+.inputPrimary {
+    width: 100%;
+    padding: 3px 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.bankCardImgDiv {
+    width: 105px;
+    margin-right: 20px;
+}
+
+.bankCardImgDiv img {
+    width: 100%;
+}
+
+.linkDiv {
+    position: relative;
+}
+
+#copyIcon {
+    position: absolute;
+    right: 12px;
+    cursor: pointer;
+    color: var(--topNav);
+}
+
+#linkIcon {
+    position: absolute;
+    right: 40px;
+    cursor: pointer;
+    color: var(--topNav);
+
+}
+
+/* .rewardInnerDiv {
+    display: flex;
+    align-items: center;
+} */

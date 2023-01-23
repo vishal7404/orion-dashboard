@@ -1,0 +1,67 @@
+.poolCard {
+    /* background: orange; */
+    border-radius: 5px;
+    padding: 20px 10px 15px 20px;
+    text-align: center;
+}
+
+.cardImg {
+    width: 40px;
+    height: 40px;
+}
+
+.poolCard i {
+    font-size: 35px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    animation: mymove 5s linear infinite;
+}
+
+@keyframes mymove {
+
+    100% {
+        transform: rotate(360deg);
+        color: #fff;
+    }
+}
+
+.poolCard i,
+.poolCard div,
+.poolCard p {
+    color: #fff;
+
+}
+
+.cardImg {
+    margin: auto 0px;
+}
+
+.cardText {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.cardText p {
+    margin: 0;
+}
+
+/* .poolCard {
+    background: linear-gradient(-45deg, #5C4FA1, #31338d, #23a6d5, #f3ef14);
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+} */
